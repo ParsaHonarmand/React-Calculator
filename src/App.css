@@ -1,0 +1,54 @@
+body {
+  font-size: 30px;
+  font-family: 'Odibee Sans';
+}
+
+.App {
+  text-align: center;
+  font-size: 30px;
+  /* width: 600px;
+  margin: 0 auto; */
+}
+
+.pad {
+  width: 600px;
+  margin: 10px auto;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+button {
+  background-color: white;
+  height: 50px;
+  width: 120px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 25px;
+}
+
+#result {
+  max-width: 600px;
+  min-width: 600px;
+  margin: 0 auto;
+  /* border: 2px solid black;
+  border-radius: 10px; */
+  text-align: right;
+}
+
+
+#result p {
+  margin-right: 30px;
+  overflow: scroll;
+  font-size: 20px;
+}
+
+.operation {
+  background-color: black;
+  color: white;
+}
+
+#equal {
+  background-color: darkblue;
+  color: white;
+}
