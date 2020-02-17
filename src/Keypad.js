@@ -1,3 +1,7 @@
+// Name: Parsa Honarmand
+// UCID: 30040722
+// Tutorial: B05
+
 import React, {Component} from 'react'
 import './App.css';
 
@@ -28,6 +32,7 @@ class Keypad extends Component {
     }
 
     buttonPressed(e) {
+        //If the button presssed is x, then reassign it to * for eval
         if (e.target.innerText==='X') {
             if (this.state.inEvaluation===false) {
                 this.setState ({
@@ -79,6 +84,16 @@ class Keypad extends Component {
     evalExpression(e) {
         let result = 0;
         //handle invalid expressions
+        for (let i=0; i<this.state.expression.length; i++) {
+            if (this.state.expression[i]+this.state.expression[i+1] === "//") {
+                window.alert("Please Enter a Valid Expression")
+                this.setState ({
+                    text: this.state.prevAnswer[0].toString(),
+                    expression: this.state.prevAnswer[0].toString(),
+                })
+                return;
+            }
+        }
 
         try {
             result = eval(this.state.expression);
