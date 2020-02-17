@@ -14,7 +14,7 @@
   .pad {
     max-width: 100%;
     margin: 10px auto;
-    background-color: grey;
+    background-color: #D6D6D6;
     border-radius: 10px;
   }
   button {
@@ -32,7 +32,7 @@
   body {
     font-size: 30px;
     font-family: 'Saira Semi Condensed', sans-serif;
-    
+    background-color: #F58F7C;
   }
   .App {
     text-align: center;
@@ -43,7 +43,7 @@
   .pad {
     width: 600px;
     margin: 10px auto;
-    background-color: grey;
+    background-color: #D6D6D6;
     border-radius: 10px;
   }
   button {
