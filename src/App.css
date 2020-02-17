@@ -11,6 +11,21 @@
     font-size: 30px;
     margin: 0 auto;
   }
+  .pad {
+    max-width: 100%;
+    margin: 10px auto;
+    background-color: grey;
+    border-radius: 10px;
+  }
+  button {
+    background-color: white;
+    height: 30px;
+    width: 70px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -24,26 +39,23 @@
     width: 600px;
     margin: 0 auto; 
   }
+  .pad {
+    width: 600px;
+    margin: 10px auto;
+    background-color: grey;
+    border-radius: 10px;
+  }
+  button {
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 25px;
+  }
 }
 
-
-
-.pad {
-  width: 600px;
-  margin: 10px auto;
-  background-color: grey;
-  border-radius: 10px;
-}
-
-button {
-  background-color: white;
-  height: 50px;
-  width: 120px;
-  margin: 5px 5px;
-  border-radius: 5px;
-  border-color: transparent;
-  font-size: 25px;
-}
 
 #result {
   /* max-width: 600px;
